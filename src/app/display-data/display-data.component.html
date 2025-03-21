@@ -1,0 +1,11 @@
+<mat-card class="data-card">
+  <mat-card-title>Información Recibida</mat-card-title>
+  <mat-card-content>
+    <h3 *ngIf="userObj">Datos ingresados:</h3>
+    <p *ngIf="userObj"><strong>Nombre:</strong> {{ userObj.name }}</p>
+    <p *ngIf="userObj"><strong>Apellido:</strong> {{ userObj.lastName }}</p>
+    <p *ngIf="userObj"><strong>Edad:</strong> {{ userObj.age }}</p>
+    <p *ngIf="userObj"><strong>Email:</strong> {{ userObj.email }}</p>
+
+  </mat-card-content>
+</mat-card>
