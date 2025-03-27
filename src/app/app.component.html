@@ -1,7 +1,14 @@
-<app-user-form-prime-flex></app-user-form-prime-flex>
+<!-- <app-user-form-prime-flex></app-user-form-prime-flex> -->
 
-!-- app.component.html -->
-<app-user-form (userSubmitted)="onUserSubmit($event)"></app-user-form>
 
-<!-- Llamamos al DisplayComponent y le pasamos los datos -->
-<app-display-data [userObj]="userObj"></app-display-data>
+<!-- Formulario -->
+<!-- <app-user-form (userSubmitted)="onUserSubmit($event)"></app-user-form> -->
+
+<!-- Mostrar datos (solo si userObj tiene valores) -->
+<!-- <app-display-data [userObj]="userObj"></app-display-data> -->
+
+
+<!-- <app-login></app-login> -->
+
+
+<router-outlet></router-outlet>
